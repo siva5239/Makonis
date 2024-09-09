@@ -1,0 +1,14 @@
+
+
+footer ul li a {
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  footer ul li a:hover {
+    color: #fff;
+  }
+
+  footer .social-icons a {
+    font-size: 18px;
+  }

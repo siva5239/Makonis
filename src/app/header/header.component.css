@@ -1,0 +1,155 @@
+.mainclass {
+    background: linear-gradient(to bottom, #fff, #ffe0e0);
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    padding: 15px 30px;
+  }
+
+  .navbar-brand {
+    color: #ff6b6b;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand:hover {
+    color: #ff6b6b;
+  }
+  .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 500;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #ff6b6b;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+  }
+
+  .help-icon {
+    font-size: 1.2rem;
+    margin-right: 15px;
+  }
+
+  .search-section {
+    text-align: center;
+    padding: 80px 0;
+  }
+
+  .search-bar {
+    margin-top: 20px;
+  }
+
+  .category-icons {
+    margin-top: 30px;
+    border-radius: 93px 93px 93px 93px;
+    background-color: #fff;
+    width: fit-content;
+  }
+
+  .category-item {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.2rem;
+  }
+
+  .category-item img {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  
+
+  .search-input {
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 40%;
+  }
+
+  @media (max-width: 768px) { /* Adjust the max-width as needed for your breakpoint */
+    .search-input {
+        width: 36%; /* Adjust width for mobile devices */
+    }
+}
+
+@media (max-width: 576px) { /* Extra-small screens */
+    .search-input {
+        width: 32%; /* Adjust width for smaller phones */
+    }
+}
+
+
+
+
+
+  .search-btn {
+    background-color: #ff6b6b;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+  }
+
+  .category-container {
+    text-align: center;
+    background-color: #fff0f0;
+    padding: 20px 0;
+    border-radius: 20px;
+    border-radius: 10px 10px 10px 10px;
+
+  }
+
+ /*  nav bar buttons butttons */
+  .nav-button {
+    background-color:#f7f7f7;;
+    border-radius: 25px 25px 25px 25px;
+    width: 162px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+
+  .nav-button:hover {
+    background-color: #f44336;
+  }
+
+  .category-container .category-icons .category-item img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .category-container .category-icons .category-item p {
+    font-size: 10px;
+  }
+
+  .category-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .sticky{
+    position: fixed;
+    width: 100%;
+    transition: 0.2 linear;
+    top: 0px;
+  }
+  .noSticky{
+    position: static;
+    transition: 0.2 linear;
+    top:-50px
+  }
